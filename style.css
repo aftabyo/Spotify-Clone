@@ -84,11 +84,55 @@ nav ul li{
     background-size: cover;
 }
 
-.container h1{
-    margin-left: 400px;
+
+
+.songitem{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 12px 0;
+    border-radius: 34px;
 }
 
+.songitem #title{
+    margin: 12px 0;
+}
+.songitem .songlistplay{
+    margin: 12px 0;
+}
+.songlist h1{
+    margin-left: 350px;
+
+}
+
+.songitem i{
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 35px;
+}
+/* .far fa-3x fa-play-circle{
+    height: 2px;
+    width: 1px;
+} */
+/* .songitem .songlistplay i{
+    height: 1px;
+    width: 1px;
+
+} */
 .songlist #cover1{
-    height: 120px;
-    width: 110px;
+    border-radius: 34px;
+}
+
+.songinfo{
+    margin-right: 998px;
+    position: absolute;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity ease-in;
 }
