@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 body{
     background-color: antiquewhite;
-
 }
 
 *{
@@ -103,8 +102,9 @@ nav ul li{
     margin: 12px 0;
 }
 .songlist h1{
-    margin-left: 350px;
-
+    margin-left: 200px;
+    font-size: 7vw;
+    
 }
 
 .songitem i{
@@ -134,5 +134,22 @@ nav ul li{
 
 .songinfo img{
     opacity: 0;
-    transition: opacity ease-in;
+    transition: opacity 0.4s ease-in;
+}
+#myprogressbar{
+    cursor: pointer;
+}
+
+.songitem span{
+    font-size: 20px;
+}
+
+#home{
+    cursor: pointer;
+}
+#about{
+    cursor: pointer;
+}
+.timestamp{
+    margin-left: 5vw;
 }
